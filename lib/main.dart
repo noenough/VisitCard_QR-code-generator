@@ -11,14 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: QrCodePage(
-        "ioewor",
-        "werowerio",
-        "ewiriowerr",
-        "123124",
-        "gikerog@giore",
-        "",
-      ),
+      home: Home()
     );
   }
 }
