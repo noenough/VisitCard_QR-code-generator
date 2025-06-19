@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proj_visitcard/home.dart';
+import 'package:proj_visitcard/qrcodepage.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,6 +9,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Home());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: QrCodePage(
+        "ioewor",
+        "werowerio",
+        "ewiriowerr",
+        "123124",
+        "gikerog@giore",
+        "",
+      ),
+    );
   }
 }
